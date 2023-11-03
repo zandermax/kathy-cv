@@ -1,15 +1,22 @@
 
 $color-blue: #38B4D3;
+$color-blue-green: #98B3B1;
+$color-brick: #BD787D;
+$color-green: #D3D9CB;
+$color-green-dark: #556356;
 $color-grey-dark: #5B5361;
-$color-offwhite: #FEF9E5;
+$color-offwhite: #FFF9F1;
 $color-orange: #C0988F;
+$color-pewter: #95A3DC;
 $color-purple: #69436D;
 $color-yellow: #CCC39E;
 
 
 
 :root {
-	--color-background-frame: #{$color-yellow};
+	--color-background-frame: #{$color-green-dark};
 	--color-background-main: #{$color-offwhite};
-	--color-border: #{$color-purple};
+	--color-border: #{$color-brick};
+	--color-text: #{$color-purple};
+	--color-text-frame: #{$color-offwhite};
 }

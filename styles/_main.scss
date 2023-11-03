@@ -14,9 +14,11 @@ body {
 	flex-flow: column;
 	height: 100%;
 	background: var(--color-background-frame);
+	color: var(--color-text-frame);
 
 	.header {
 		flex: 0 1 auto;
+		height: 20ex;
 	}
 
 	.content {
@@ -30,18 +32,20 @@ body {
 			width: 100vw;
 
 			#scroll-frame {
-				padding: 2ch 3ex 0;
+				padding: 5ex 5% 0;
 				border: 8px solid var(--color-border);
 				border-radius: 20px;
 				border-right: 0;
 				background: var(--color-background-main);
 				overflow-y: auto;
+				color: var(--color-text);
 			}
 		}
 	}
 
 	.footer {
 		flex: 0 1 auto;
+		height: 10ex;
 	}
 
 }

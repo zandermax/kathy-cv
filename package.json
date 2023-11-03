@@ -1,0 +1,16 @@
+{
+	"author": "Zander Maxwell",
+	"description": "CV for Kathy",
+	"devDependencies": {
+		"sass": "^1.69.5"
+	},
+	"license": "ISC",
+	"main": "index.js",
+	"name": "kathy-cv",
+	"scripts": {
+		"build": "rm -rf build/* && sass --no-source-map styles/index.scss build/style.css && cp index.html build/index.html",
+		"dev": "npm run dev:style",
+		"dev:style": "sass --watch styles/index.scss style.css"
+	},
+	"version": "1.0.0"
+}

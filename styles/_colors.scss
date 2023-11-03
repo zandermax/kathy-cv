@@ -1,0 +1,15 @@
+
+$color-blue: #38B4D3;
+$color-grey-dark: #5B5361;
+$color-offwhite: #FEF9E5;
+$color-orange: #C0988F;
+$color-purple: #69436D;
+$color-yellow: #CCC39E;
+
+
+
+:root {
+	--color-background-frame: #{$color-yellow};
+	--color-background-main: #{$color-offwhite};
+	--color-border: #{$color-purple};
+}
